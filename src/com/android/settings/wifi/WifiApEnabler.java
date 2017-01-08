@@ -116,7 +116,7 @@ public class WifiApEnabler {
             mSwitch.setEnabled(false);
         }
     }
-
+	
     public void setChecked(boolean Checked) {
             ((HotspotPreference)mSwitch).setChecked(Checked);
     }
